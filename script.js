@@ -1,5 +1,5 @@
 /**
- * букмарклет для подсчета суммы значений колонки таблицы
+ * Р±СѓРєРјР°СЂРєР»РµС‚ РґР»СЏ РїРѕРґСЃС‡РµС‚Р° СЃСѓРјРјС‹ Р·РЅР°С‡РµРЅРёР№ РєРѕР»РѕРЅРєРё С‚Р°Р±Р»РёС†С‹
  * 
  * @version 0.1
  * @data 20.04.2014
@@ -10,7 +10,7 @@ var td = document.getElementsByTagName('td');
 var th = document.getElementsByTagName('th');
 var tdl = td.length;
 
-var cols = prompt('Введите номера столбцов для подсчета через запятую: ');
+var cols = prompt('Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂР° СЃС‚РѕР»Р±С†РѕРІ РґР»СЏ РїРѕРґСЃС‡РµС‚Р° С‡РµСЂРµР· Р·Р°РїСЏС‚СѓСЋ: ');
 var cols = cols.split(',');
 
 for(i=0;i<cols.length;i++){
@@ -18,7 +18,7 @@ for(i=0;i<cols.length;i++){
 }
 
 function colsum(n,td,tdl,h){
-	//нужные нам столбцы
+	//РЅСѓР¶РЅС‹Рµ РЅР°Рј СЃС‚РѕР»Р±С†С‹
 	var sum = 0;
 	var err = 0;
 	for(var i=0; i< tdl; i++){
